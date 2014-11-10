@@ -2,22 +2,22 @@
 ----------------------------------
 <h4>1)Introduction</h4>
 <ul>
- <li> a) About Node & V8 Javascript Engine</li>
- <li>b) Why Node?</li>
+ <li> About Node & V8 Javascript Engine</li>
+ <li> Why Node?</li>
 </ul>
 
 <h4>2)Installing Node</h4>
 <ul>
-<li> a) Installing On Windows</li>
-<li> b) Installing On Mac</li>
-<li> c) Running Node</li>
+<li> Installing On Windows</li>
+<li> Installing On Mac</li>
+<li> Running Node</li>
 </ul> 
 
 <h4>3)Understanding Node.js</h4>
 <ul>
- <li>  a)How it works & Comparisons</li> 
- <li>  b)Node Pros</li>
- <li>  c)Node Concepts – Event Loop and Event Emitter Pattern</li>
+ <li> How it works & Comparisons</li> 
+ <li> Node Pros</li>
+ <li> Node Concepts – Event Loop and Event Emitter Pattern</li>
 </ul>
 
 <h4>4)Node PackageManager(NPM)</h4>

@@ -22,8 +22,8 @@
 
 <h4>4)Node PackageManager(NPM)</h4>
 <ul>
- <li> a) Understanding package.json</li>
- <li> b) Git</li>
+ <li> Understanding package.json</li>
+ <li> Git</li>
 </ul>
   
 <h4>5) Modules</h4>

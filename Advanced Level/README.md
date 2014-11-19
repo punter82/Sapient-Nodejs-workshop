@@ -1,6 +1,6 @@
 <h3>Topics to be covered in Advanced Level:</h3>
 ----------------------------------
-<h4>1)Passport</h4>
+<h4>1) Passport</h4>
 <ul>
  <li> What is Passport? Why do we need it?</li>
  <li> Configure Passport and authentication Strategies</li>
@@ -9,14 +9,14 @@
  <li> Oauth and Open Id - A brief walkthrough</li>
 </ul>
 
-<h4>2)Create an HTTPS Server in Node and Demo Passport functionality</h4>
+<h4>2) Create an HTTPS Server in Node and Demo Passport functionality</h4>
 <ul>
 <li> Discuss about openssl and how to create self signed certificate</li>
 <li> Create HTTPS server on top of Express</li>
 <li> Demo the passport app. Checkout the code and walkthrough</li>
 </ul> 
 
-<h4>3)Working with files on Node</h4>
+<h4>3) Working with files on Node</h4>
 <ul>
  <li> Talk about different File and Directory operations</li> 
  <li> Walthrough with real time programming exercises</li>
@@ -26,7 +26,7 @@
 <h4>4)Todo App Complete Demo</h4>
 <ul>
  <li> Integration of the login flow with Todo App</li>
- <li> Working with JSon files and walkhtrough of the app with Express/JADE layout</li>
+ <li> Working with JSON files and walkhtrough of the app with Express/JADE layout</li>
 </ul>
   
 <h4>5) Other Advanced Topics</h4>

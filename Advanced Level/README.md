@@ -1,4 +1,4 @@
-<h3>Topics to be covered in Advanced Level:</h3>
+<h3>Topics to be covered in Advanced Level</h3>
 ----------------------------------
 <h4>1) Passport</h4>
 <ul>

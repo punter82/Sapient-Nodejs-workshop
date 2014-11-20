@@ -54,9 +54,43 @@ fs.rmdir('./newdir', function(err) {
   console.log('File write completed');
 });*/
 
-fs.readFile('newdir/test.json', 'utf8', function(err, data) {
+/*fs.readFile('newdir/test.json', 'utf8', function(err, data) {
   if(err) throw err;
   console.log(data);
 });
+*/
 
+/*
+var file = fs.createReadStream('./data/results.txt', {flags: 'r'} );
+var out = fs.createWriteStream('./data/results2.txt', {flags: 'w'});
+file.on('data', function(data) {
+  console.log('data', data);
+  out.write(data);
+});
+file.on('end', function() {
+  console.log('end');
+  out.end(function() {
+    console.log('Finished writing to file');
+    test.done();
+  });
+});*/
+
+/*
+var file = fs.createReadStream('./data/results.txt', {flags: 'r'} );
+var out = fs.createWriteStream('./data/results2.txt', {flags: 'w'});
+file.pipe(out);
+*/
+
+var fs = require('fs');
+
+fs.readdir('/path/to/html/files', function(err, files) {
+    files.filter(function(file) { return file.substr(-5) === '.html'; })
+         .forEach(function(file) { fs.readFile(file, 'utf-8', function(err, contents) { inspectFile(contents); }); });
+});
+
+function inspectFile(contents) {
+    if (contents.indexOf('data-template="home"') != -1) {
+        // do something
+    }
+}
 

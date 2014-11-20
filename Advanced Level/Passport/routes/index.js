@@ -6,7 +6,6 @@ module.exports = function(app) {
 	
 	/* apply routes to app */
 	passport(app);
-	api(app);
 	application(app);	
 
 }
